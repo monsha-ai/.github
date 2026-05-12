@@ -1,0 +1,21 @@
+{
+  "run_timestamp": "2026-05-12T08:02:17.676349Z",
+  "bugs_processed": 1,
+  "bugs": [
+    {
+      "intercom_id": "215474198427643",
+      "contact_name": "Linda M.",
+      "contact_email": "ilyyymariee7@gmail.com",
+      "contact_id": "69fb5a8673bd6c93a2e6d930",
+      "summary": "Worksheet download fails on mobile",
+      "intercom_url": "https://app.intercom.com/a/inbox/_/inbox/conversation/215474198427643",
+      "linear_comment_id": "c4eb8799-d8d3-47be-af44-7fd6a5a84461",
+      "linear_comment_url": "https://linear.app/monsha/issue/ISSUE-281#comment-c4eb8799-d8d3-47be-af44-7fd6a5a84461",
+      "status": "comment_posted",
+      "next_steps": [
+        "Apply 'linear-synced' tag to conversation 215474198427643",
+        "Add internal note: 'Logged on Linear ISSUE-281. Link: https://linear.app/monsha/issue/ISSUE-281#comment-c4eb8799-d8d3-47be-af44-7fd6a5a84461'"
+      ]
+    }
+  ]
+}
