@@ -1,0 +1,54 @@
+BUG INTAKE AUTOMATION LOG
+=======================
+Execution Date: 2026-05-12 15:03 UTC
+Automation ID: 9195cad2-afe2-448c-b6f8-42492113e0a5
+
+STEP 1: FETCH INTERCOM BUG REPORTS
+- Search Period: Last 60 minutes (2026-05-12 14:01 UTC to 15:01 UTC)
+- Tag: "Bug Report" (ID: 9971197)
+- Conversations Found: 5
+
+STEP 2: CHECK FOR DUPLICATES (linear-synced tag)
+- All 5 conversations checked - none had "linear-synced" tag
+- All 5 are NEW and ready to be synced
+
+STEP 3: POST COMMENTS TO LINEAR ISSUE ISSUE-281
+✓ Comment 1: Melanie Davis - Can't create versions of existing tests
+  ID: 934a36c1-1498-4fb8-9724-976a9c0b04fc
+  URL: https://linear.app/monsha/issue/ISSUE-281#comment-934a36c1-1498-4fb8-9724-976a9c0b04fc
+
+✓ Comment 2: Robin Gupta - PDF export not working (corrupted 1kb files)
+  ID: 2f0ada84-60bb-4845-b102-6048a4252443
+  URL: https://linear.app/monsha/issue/ISSUE-281#comment-2f0ada84-60bb-4845-b102-6048a4252443
+
+✓ Comment 3: Linda M. - Worksheet download fails with error screen
+  ID: 83c48f3e-8ff3-4e97-b695-319c157e94c1
+  URL: https://linear.app/monsha/issue/ISSUE-281#comment-83c48f3e-8ff3-4e97-b695-319c157e94c1
+
+✓ Comment 4: Robert Winters - Legacy slide tool image generation hangs
+  ID: 0944ab2c-3617-44c5-b5fb-9c354883f635
+  URL: https://linear.app/monsha/issue/ISSUE-281#comment-0944ab2c-3617-44c5-b5fb-9c354883f635
+
+✓ Comment 5: Stacie Pullum - Content generation fails with search criteria
+  ID: fd5408af-50bd-4995-8486-b195c19078d3
+  URL: https://linear.app/monsha/issue/ISSUE-281#comment-fd5408af-50bd-4995-8486-b195c19078d3
+
+STEP 4: TAG CONVERSATIONS & ADD NOTES
+- ACTION REQUIRED: The Intercom MCP tools do not provide endpoints for:
+  * Adding tags to conversations
+  * Adding internal notes to conversations
+- These operations would require:
+  * Direct Intercom API calls (not available in current MCP tools)
+  * OR manual tagging in the Intercom UI
+
+CONVERSATIONS REQUIRING MANUAL FOLLOW-UP:
+1. Conversation ID: 215474154263922
+2. Conversation ID: 215474139121666
+3. Conversation ID: 215474198427643
+4. Conversation ID: 215474150800586
+5. Conversation ID: 215474130778613
+
+ACTION: Please manually tag these conversations with "linear-synced" and add internal notes with the Linear comment URLs.
+
+AUTOMATION COMPLETED WITH PARTIAL SUCCESS
+All Linear comments posted successfully. Manual steps needed for Intercom tagging.
